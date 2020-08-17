@@ -6,7 +6,7 @@ import { Component, Emit, Prop, Watch, mixins } from 'nuxt-property-decorator'
 import VueChart from 'vue-chartjs'
 // 棒グラフの場合は、Barを使う
 // eslint-disable-next-line
-const Bar = VueChart.Bar
+const Bar = VueChart.Pie
 
 @Component
 // mixinsもBarに変更
